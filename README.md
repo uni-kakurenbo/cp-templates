@@ -1,1 +1,1 @@
-# MyTemplates-for-CompetitiveProgramming
+# My Templates for Competitive Programming
