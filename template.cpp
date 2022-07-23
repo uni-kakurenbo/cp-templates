@@ -1,9 +1,10 @@
 /*
  * @uni_kakurenbo
- * https://github.com/uni-kakurenbo/CompetitiveProgramming
+ * https://github.com/uni-kakurenbo/competitive-programming-workspace
  *
  * CC0 1.0  http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
+/* #region template */
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -44,7 +45,7 @@ template<class T> inline T mod(T &x, T &r) { return (x%r+r)%r; }
 
 template<class T> inline bool chmax(T &a, T b) { return (a<b ? a=b, true : false); }
 template<class T> inline bool chmin(T &a, T b) { return (a>b ? a=b, true : false); }
-
+/* #endregion */
 
 signed main() {
     return 0;
