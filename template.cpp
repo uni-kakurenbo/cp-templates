@@ -4,13 +4,10 @@
  *
  * CC0 1.0  http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
-/* #region template */
 
+/* #region template */
 #include <bits/stdc++.h>
 using namespace std;
-
-// #include <atcoder/...>
-// using namespace atcoder;
 
 #ifdef LOCAL_JUDGE
     #include<debug>
