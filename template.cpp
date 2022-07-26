@@ -4,8 +4,8 @@
  *
  * CC0 1.0  http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
-
-/* #region template */
+/* #language C++ GCC */
+/* #region tmplate */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -34,6 +34,8 @@ using namespace std;
 
 #define F$ first
 #define S$ second
+
+#define MOD$(x,r) ((x)%(r)+(r))%(r)
 
 using ll = long long;
 using ull = unsigned long long;
