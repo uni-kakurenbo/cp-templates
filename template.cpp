@@ -24,23 +24,21 @@ using namespace std;
 #define until(...) while(!(__VA_ARGS__))
 
 #define REP(i,n) for(int i=0, i##_length=int(n); i<i##_length; ++i)
-#define REPD(i,n) for(int i=n-1; i>=0; --i)
-#define FOR(i,a,b) for(ll i=a, i##_last=ll(b); i<=i##_last; ++i)
-#define FORD(i,a,b) for(ll i=a, i##_last=ll(b); i>=i##_last; --i)
-#define FORA(i,I) for(auto& i:I)
+#define REPD(i,n) for(int i=(n)-1; i>=0; --i)
+#define FOR(i,a,b) for(ll i=(a), i##_last=ll(b); i<=i##_last; ++i)
+#define FORD(i,a,b) for(ll i=(a), i##_last=ll(b); i>=i##_last; --i)
 
-#define ALL(x) begin(x),end(x)
-#define RALL(x) rbegin(x),rend(x)
+#define ALL(x) begin((x)),end((x))
+#define RALL(x) rbegin((x)),rend((x))
 
 #define F$ first
 #define S$ second
 
-#define MOD$(x,r) ((x)%(r)+(r))%(r)
-
 using ll = long long;
 using ull = unsigned long long;
+using ld = long double;
 
-template<class T> inline T mod(T &x, T &r) { return (x%r+r)%r; }
+template<class T> inline T mod(T x, T r) { return (x%r+r)%r; }
 
 template<class T> inline bool chmax(T &a, T b) { return (a<b ? a=b, true : false); }
 template<class T> inline bool chmin(T &a, T b) { return (a>b ? a=b, true : false); }
