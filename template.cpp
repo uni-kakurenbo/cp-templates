@@ -38,7 +38,7 @@ using ll = long long;
 using ull = unsigned long long;
 using ld = long double;
 
-template<class T> inline T mod(T x, T r) { return (x%r+r)%r; }
+template<class T1, class T2> inline auto mod(T1 x, T2 r) { return (x%r+r)%r; }
 
 template<class T> inline bool chmax(T &a, T b) { return (a<b ? a=b, true : false); }
 template<class T> inline bool chmin(T &a, T b) { return (a>b ? a=b, true : false); }

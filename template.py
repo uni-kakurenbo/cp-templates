@@ -5,7 +5,7 @@
 
 # #language PyPy3 #
 
-from sys import setrecursionlimit, stderr, argv;
+from sys import setrecursionlimit, stderr, argv
 # setrecursionlimit(10**5)
 def debug(*args, **opts):
-    if argv[-1] == "LOCAL_JUDGE": print(*args, **opts, file=stderr);
+    if argv[-1] == "LOCAL_JUDGE": print(*args, **opts, file=stderr)
