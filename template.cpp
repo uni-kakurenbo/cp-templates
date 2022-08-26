@@ -25,8 +25,16 @@ using namespace std;
 
 #define REP(i,n) for(int i=0, i##_length=int(n); i<i##_length; ++i)
 #define REPD(i,n) for(int i=(n)-1; i>=0; --i)
-#define FOR(i,a,b) for(ll i=(a), i##_last=ll(b); i<=i##_last; ++i)
-#define FORD(i,a,b) for(ll i=(a), i##_last=ll(b); i>=i##_last; --i)
+#define LOOP(n) REP(_$, (n))
+#define FOR(i,l,r) for(ll i=(l), i##_last=ll(r); i<=i##_last; ++i)
+#define FORD(i,l,r) for(ll i=(l), i##_last=ll(r); i>=i##_last; --i)
+
+#define ITRP(x,v) for(auto x : (v))
+#define ITRR(x,v) for(auto &x : (v))
+#define ITR(x,v) for(const auto &x : (v))
+#define ITRMP(x,y,v) for(auto [x, y] : (v))
+#define ITRMR(x,y,v) for(auto &[x, y] : (v))
+#define ITRM(x,y,v) for(const auto [x, y] : (v))
 
 #define ALL(x) begin((x)),end((x))
 #define RALL(x) rbegin((x)),rend((x))
@@ -37,6 +45,8 @@ using namespace std;
 using ll = long long;
 using ull = unsigned long long;
 using ld = long double;
+
+constexpr char ln = '\n';
 
 template<class T1, class T2> inline auto mod(T1 x, T2 r) { return (x%r+r)%r; }
 
