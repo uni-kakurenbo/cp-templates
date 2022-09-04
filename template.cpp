@@ -39,8 +39,8 @@ using namespace std;
 #define ALL(x) begin((x)),end((x))
 #define RALL(x) rbegin((x)),rend((x))
 
-#define F$ first
-#define S$ second
+#define $F first
+#define $S second
 
 using ll = long long;
 using ull = unsigned long long;
