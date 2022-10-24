@@ -49,6 +49,8 @@ using ld = long double;
 constexpr char ln = '\n';
 constexpr char spc = ' ';
 
+inline void fast_io() { ios::sync_with_stdio(false), cin.tie(nullptr); }
+
 template<class T1, class T2> inline auto mod(T1 x, T2 r) { return (x%r+r)%r; }
 
 template<class T> inline bool chmax(T &a, T b) { return (a<b ? a=b, true : false); }
@@ -60,5 +62,7 @@ template<class T> auto operator<<(ostream &out, const T &val) -> decltype(val.va
 /* #endregion */
 
 signed main() {
+    ios::sync_with_stdio(false), cin.tie(nullptr);
+
     return 0;
 }
