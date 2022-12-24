@@ -10,13 +10,6 @@
 using namespace std;
 
 #include "template.hpp"
-#include "input.hpp"
-#include "output.hpp"
-
-Input _input;
-Output _print;
-#define input _input
-#define print _print
 /* #endregion */
 
 signed main() {
