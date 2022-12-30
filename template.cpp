@@ -9,12 +9,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-namespace atcoder {}
-using namespace atcoder;
-
-namespace Lib {}
-using namespace Lib;
-
 #include "template.hpp"
 /* #endregion */
 
