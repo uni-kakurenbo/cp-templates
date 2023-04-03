@@ -7,12 +7,22 @@
 /* #language C++ GCC */
 /* #region template */
 #include <bits/stdc++.h>
-using namespace std;
 
 #include "template.hpp"
 /* #endregion */
 
-signed main() {
+void solve();
 
+signed main() {
+    int $ = 1;
+    // std::cin >> $;
+    for(int _ = 0; _ < $; ++_) {
+        DEBUG("Case: #" + std::to_string(_));
+        solve();
+    }
     return 0;
+}
+
+void solve() {
+
 }
