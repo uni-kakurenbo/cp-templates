@@ -3,15 +3,16 @@
 #
 # CC0 1.0  http://creativecommons.org/publicdomain/zero/1.0/deed.ja
 
-# #language PyPy3 #
+# #language PyPy #
 #region template
-from sys import setrecursionlimit, stdin, stderr, argv
 
+import sys
+# sys.setrecursionlimit(10**5)
 def debug(*args, **opts):
-    if argv[-1] == "LOCAL_JUDGE": print(*args, **opts, file=stderr)
+    if "LOCAL_JUDGE" in sys.argv: print(*args, **opts, file=sys.stderr)
 
 class istream():
-    def __init__(self, source = stdin):
+    def __init__(self, source = sys.stdin):
         self.pos = -1
         self.buffer = []
         self.source = source
