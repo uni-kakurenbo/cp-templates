@@ -5,11 +5,7 @@
  * CC0 1.0  http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
 /* #language C++ 20 GCC */
-/* #region template */
-#include <bits/stdc++.h>
-
-#include "template.hpp"
-/* #endregion */
+#include "template/standard.hpp"
 
 void solve();
 
