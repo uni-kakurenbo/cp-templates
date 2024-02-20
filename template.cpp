@@ -14,7 +14,7 @@ signed main() {
     int $ = 1;
     // std::cin >> $;
     for(int _ = 0; _ < $; ++_) {
-        DEBUG("Case: #" + std::to_string(_));
+        debug_("Case: #" + std::to_string(_));
         solve();
     }
     return 0;
