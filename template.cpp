@@ -22,7 +22,7 @@ signed main() {
     return 0;
 }
 
-#pragma GCC diagnostic warning "-Wshadow=local"
+#include "template/warnings.hpp"
 void solve() {
 
 }
